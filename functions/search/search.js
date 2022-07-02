@@ -42,7 +42,7 @@ const searchRandevu = async ({
          });
       })
       .catch(function (error) {
-         console.log("Hata");
+         console.log("Hekim ararken hata oluştu");
       });
 })
 

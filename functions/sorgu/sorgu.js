@@ -37,7 +37,7 @@ const sorguHekim = async ({
          resolve(response.data.data);
       })
       .catch(function (error) {
-         console.log("Hata");
+         console.log("Saat Soruglamada Hata Oluştu");
       });
 })
 

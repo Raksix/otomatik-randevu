@@ -20,7 +20,7 @@ const randevuGecmisi = async ({
          resolve(response.data.data);
       })
       .catch(function (error) {
-         console.log("Hata");
+         console.log("randevu geçmişi alınırken hata oluştu");
       });
 })
 

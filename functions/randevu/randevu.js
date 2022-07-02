@@ -33,7 +33,7 @@ const randevuAl = async ({
          resolve(response.data.data);
       })
       .catch(function (error) {
-         console.log("Hata");
+         console.log("Randevu eklenirken hata oluştu");
       });
 })
 

@@ -26,7 +26,7 @@ const getAuth = async ({
          resolve(JSON.stringify(response.data.data.jwt));
       })
       .catch(function (error) {
-         console.log("Hata");
+         console.log("Giriş yapılırken hata oluştu");
       });
 })
 
